@@ -1,0 +1,10 @@
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -5px; /* Negative margin to create gap between images */
+}
+
+.image-list > * {
+  flex: 1;
+  margin: 5px; /* Adjust this margin to control the gap between images */
+}
